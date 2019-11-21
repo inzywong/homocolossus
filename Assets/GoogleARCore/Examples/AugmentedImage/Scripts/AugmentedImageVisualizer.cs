@@ -26,7 +26,7 @@ namespace GoogleARCore.Examples.AugmentedImage
         {
             if (Image == null || Image.TrackingState != TrackingState.Tracking)
             {
-                Homocolossus.SetActive(false);
+                //Homocolossus.SetActive(false);
 
                 return;
             }
